@@ -1,0 +1,51 @@
+.div1{
+    background-color: #E81D0C;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.titulo{
+    font-family: 'Ravi Prakash', cursive;
+    color: #E8A90C;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.cor{
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+}
+.div2{
+    background-color: blue;
+    text-align: center;
+}
+.div3{
+    background-image:url("cuzco2.jpg");
+    width: 100%;
+    height: 250px;
+}
+.img1{
+    width: 100%;
+    height: 200px;
+}
+.title2{
+    color: #E8A90C;
+    text-align: right;
+}
+.p1{
+    color: white;
+    text-align: right;
+}
+.div4{
+    float: right;
+}
+.lastl{
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
+}
+.move{
+    padding-left: 80px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
