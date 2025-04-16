@@ -93,3 +93,15 @@ body {
     object-fit: cover;
     height: 85rem;
 }
+
+/* FOOTER */
+
+.footer{
+    background-color: #243238;
+    color: aliceblue;
+    padding: 2rem 0;
+}
+.icons{
+    font-size: 4rem;
+    margin: 2rem;
+}
