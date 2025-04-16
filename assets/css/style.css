@@ -1,9 +1,22 @@
 body {
     background-color: #243238;
+    color: aliceblue;
 }
+
+/* EDICIONES NAVBAR */
+
 .navbar {
     color: aliceblue;
 }
 .navbar-nav a{
     color: aliceblue;
+}
+
+/* ECICIONES SECCION PRESENTACION */
+
+.hero-section img{
+    width: 630px;
+    height: 630px;
+    border-radius: 50%;
+    object-fit: cover;
 }
