@@ -8,11 +8,17 @@ body {
 .navbar {
     color: aliceblue;
 }
+
 .navbar-nav a{
     color: aliceblue;
     font-size: 1.3rem;
     margin-right: 2rem;
 }
+.inicio a{
+    color: #33FFA9 !important;
+    font-size: 1.7rem;
+}
+
 
 /* ECICIONES SECCION PRESENTACION */
 .hero-section{
@@ -85,6 +91,9 @@ body {
 }
 
 /* SECCION TRABAJOS RECIENTES  */
+.trabajos-recientes{
+    padding: o;
+}
 
 .trabajos-recientes h1{
     font-size: 5rem;
