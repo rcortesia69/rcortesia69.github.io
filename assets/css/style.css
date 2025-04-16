@@ -83,3 +83,13 @@ body {
 .title-section{
     height: 10rem;
 }
+
+/* SECCION TRABAJOS RECIENTES  */
+
+.trabajos-recientes h1{
+    font-size: 5rem;
+} 
+.carousel-item img{
+    object-fit: cover;
+    height: 85rem;
+}
