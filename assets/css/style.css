@@ -10,13 +10,76 @@ body {
 }
 .navbar-nav a{
     color: aliceblue;
+    font-size: 1.3rem;
+    margin-right: 2rem;
 }
 
 /* ECICIONES SECCION PRESENTACION */
-
+.hero-section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 .hero-section img{
     width: 630px;
     height: 630px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 2rem;
+    
+}
+.aside-presentacion{
+    padding-left: 1rem;
+    margin-top: 2rem;
+    padding-right: 7rem;
+
+}
+.aside-presentacion h2{
+    font-size: 6rem;
+}
+.aside-presentacion p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.aside-presentacion button{
+    background-color: #33FFA9;
+    color: black;
+    border-radius: 0%;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+.aside-presentacion button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* SECCION ACERCA DE MI */
+
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.text-container{
+    font-size: 2rem;
+}
+.img-container{
+    padding-left: 0;
+}
+.acerca-de-mi h1{
+    font-size: 5rem;
+
+} 
+
+.hrlinea{
+        vertical-align: middle;
+            width: 30%;
+            display: inline-block;
+            border: 3px solid #33FFA9;
+}
+.title-section{
+    height: 10rem;
 }
