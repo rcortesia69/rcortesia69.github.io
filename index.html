@@ -1,133 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricardo Cortesia</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Ricardo Cortesia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/CStyle.css">
+  
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md ">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <div class="container py-5">
+    <img src="assets/img/me.JPG" alt="Foto de perfil" class="profile-pic">
+    <h1 class="text-center mb-4">Ricardo J. Cortesia O.</h1>
+
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <p><strong>Fecha de nacimiento:</strong> 6 de junio de 1990</p>
+        <p><strong>Dirección:</strong> Calle Povedilla, Comunidad de Madrid</p>
+      </div>
+      <div class="col-md-6">
+        <p><strong>Teléfono:</strong> (+34) 609719340</p>
+        <p><strong>Email:</strong> r.cortesia69@gmail.com</p>
+      </div>
+    </div>
+
+    <h4 class="section-title">Resumen Profesional</h4>
+    <p>Caracterizado por contribuir a la empresa con conocimientos innovadores, solución de problemas, capacidad de aprendizaje rápido y facilidad para trabajar en equipo, buscando resultados a corto plazo y excelente calidad, además de conocimientos en informática y soporte técnico computacional.</p>
+
+    <h4 class="section-title">Antecedentes Laborales</h4>
+    <div class="accordion" id="experienciaLaboral">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Promotor Junior de telefonía HUAWEI - GESTION TOTAL DE OUTSOURCING DE RRHH SA. (Abril 2019 – Abril 2020, Santiago - Chile)
           </button>
-          <div class="collapse navbar-collapse justify-content-between m-2 p-2" id="navbarTogglerDemo01">
-            <h1><i class="bi bi-code-slash"></i>Ricardo Cortesia</h1>
-            <ul class="navbar-nav m-2 justify-content-center align-items-center">
-              <li class="nav-item inicio">
-                <a class="nav-link "  href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#acercademi">Acerca de mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#estudios">Estudios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#trabajos" >Trabajos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactame" >Contacto</a>
-              </li>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <ul>
+              <li>Atención al cliente enfocado en la promoción de equipos de telefonía Huawei.</li>
+              <li>Manejo de stock y gestión de inventario.</li>
+              <li>Elaboración de informes diarios y semanales.</li>
             </ul>
           </div>
         </div>
-      </nav>
-
-    <!-- Seccion presentacion e imagen -->
-     <Section class="container-fluid d-flex justify-content-between hero-section">
-        <div class="aside-presentacion">
-            <h2>Tranformo ideas <br>
-            en experiencias <br>
-            digitales</h2>
-            <p>Soy desarrollador frontend en formación continua. Domino HTML, CSS, Flexbox, Bootstrap y JavaScript. Estoy listo para construir experiencias modernas, responsivas y funcionales.</p>
-            <button type="button" class="btn btn-primary" >Contactame</button>
-        </div>
-        <div>
-            <img src="assets/img/me.JPG" alt="Imagen de perfil">
-        </div>
-     </Section>
-     <!-- Seccion Acerca de mi -->
-     <section id="acercademi" class="container-fluid acerca-de-mi">
-        <div class="title-section justify-content-center d-flex align-items-center">
-            <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Acerca de mi</h1><hr class="hrlinea">
-        </div>
-        <div class="row">
-            <div class="col-md-6 img-container">
-                <img src="assets/img/me2.webp" alt="">
-            </div>
-            <div class="col-md-6 justify-content-center d-flex align-items-center text-container">
-                <p>Soy Ingeniero Civil de formación, pero a lo largo de mi vida profesional he explorado y desarrollado habilidades en múltiples áreas que han enriquecido mi perfil.
-
-                    He trabajado en atención al público y ventas, lo que me ha dado una gran capacidad para comunicarme, entender necesidades y ofrecer soluciones. También he explorado el mundo de la fotografía, el diseño digital y el soporte informático, lo que me permitió combinar la parte creativa con el pensamiento técnico.
-                    
-                    Hoy, con esa base y experiencia multidisciplinaria, estoy construyendo un nuevo camino como desarrollador frontend. Me apasiona crear interfaces que no solo se vean bien, sino que funcionen bien. Mi enfoque está en crecer, aprender constantemente y aportar valor real en cada proyecto.
-                    
-                    Estoy listo para nuevos desafíos, con una mentalidad flexible, resolutiva y orientada al detalle.</p>
-            </div>
-        </div>
-     </section>
-     <!-- Seccion Estudios -->
-     <section id="estudios" class="container-fluid">
-        <div class="title-section justify-content-center d-flex align-items-center">
-          <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Estudios</h1><hr class="hrlinea">
-        </div>
-        <div class=" d-flex justify-content-center align-items-center p-5">
-          <ul>
-            <li>2008-2013 <strong>Titulo de Ingerniero Civil</strong> I.U.P "Santiago Mariño", Nueva Esparta - Venezuela</li>
-            <li>2001-2016 <strong>Bachiller en ciencias</strong> U.E "Independencia", Nueva Esparta - Venezuela</li>
-          </ul>
-        </div>
-     </section>
-     <!-- Seccion trabajos recientes  -->
-     <section id="trabajos" class="container-fluid trabajos-recientes">
-        <div class="title-section justify-content-center d-flex align-items-center">
-            <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Trabajos Recientes</h1><hr class="hrlinea">
-        </div>
-        <br>
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="p03.html"><img src="assets/img/Proyecto02.png" class="d-block w-100" alt="Proyecto02"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="p04.html"><img src="assets/img/proyecto03.png" class="d-block w-100" alt="Proyecto03"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="p05.html"><img src="assets/img/proyecto04.png" class="d-block w-100" alt="Proyecto04"></a>
-                
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Asistente de Estudio - FLESAN SA. (Junio 2018 – Octubre 2018, Santiago - Chile)
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Estudio de propuestas para licitaciones MOP y privadas.</li>
+              <li>Cubicaciones y cotizaciones para elaboración de presupuestos y APU.</li>
+              <li>Elaboración de carpetas y estudio de bases para entrega de licitaciones en MOP.</li>
+            </ul>
           </div>
-     </section>
-     <!-- seccion footer -->
-     <section id="contactame" class=" container footer d-flex justify-content-center align-items-center flex-column">
-        <h2>Estoy disponible para trabajo Freelance, puedes contactarme a traves de:</h2>
-        <div class="d-flex w-100 justify-content-between icons">
-            <a href="https://www.instagram.com/r.cortesia.o/"><i class="bi bi-instagram"></i></a>
-            <a href="mailto:r.cortesia69@gmail.com"><i class="bi bi-envelope-paper"></i></a>
-            <a href="https://github.com/rcortesia69"><i class="bi bi-github"></i></a>
         </div>
-        <p>2025 - Ricardo Cortesia - Web Developer</p>
-     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Soporte Técnico Informatico - Universidad del Desarrollo (Julio 2017 – Junio 2018, Santiago - Chile)
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Formateo, actualizaciones, eliminación de virus, instalación de software.</li>
+              <li>Instalación y mantenimiento de redes.</li>
+              <li>Atención al cliente presencial y remota.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Ejecutivo Clientes de Alto Valor - TELEPERFORMANCE (Marzo 2017 – Junio 2017, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Orientación y soporte de problemáticas en internet, TV cable y red telefónica nivel técnico.</li>
+              <li>Realización de informes de registro de llamadas.</li>
+              <li>Manejo de cuentas comerciales.</li>
+              <li>Ofrecer productos y servicios de acuerdo a las necesidades del cliente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <!-- ITEM 5 TRIPODES -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+            Encargado Tienda Fotografica - TRIPODES (Diciembre 2016 – Febrero 2017, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Orientación con respecto a equipos fotográficos y de iluminación</li>
+              <li>Manejo de caja</li>
+              <li>Ofrecer productos y servicios de acuerdo a las necesidades del cliente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ITEM 6 TIERRA SANTA -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+            Ejecutivo de Ventas Plataformas Web - TIERRA SANTA LTDA (Agosto 2016 – Diciembre 2016, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Manejo de plataformas web (yapo y mercadolibre) a nivel empresa, coordinación de ventas con clientes (vía
+                mensajería en plataforma, llamadas telefónicas y contacto directo)</li>
+              <li>Estudio de mercado para proveer mejores ofertas según demanda</li>
+              <li>Diseño de plantillas a nivel web con creación de servidor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ITEM 7 FERRARA -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingseven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+            Jefe de Instalaciones - FERRARA (Abril 2015 – Julio 2016, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Organizar equipos de trabajo para la realización de instalaciones de tabiquería, topes y electrodomésticos de alta
+                calidad a nivel regional.</li>
+              <li>Coordinar con las diferentes áreas de la empresa los pedidos, para cumplir con las instalaciones requeridas
+                mensualmente, incluyendo el manejo de entrada y salida de materiales en sucursal.</li>
+              <li>Recibir y organizar los contratos de la empresa a nivel regional para cumplir con el tiempo dictado por el cliente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ITEM 8 FERRARA2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Supervisor de Instalaciones - FERRARA (Febrero 2015 – Abril 2015, Nueva Esparta- Venezuela)
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Supervisar la instalación de muebles de cocina, topes y electrodomésticos con la calidad requerida por la empresa,
+                así como también manejar y coordinar el transporte de materiales desde la sucursal al lugar de la instalación.</li>
+              <li>Documentar el avance elaborando informes diarios, semanales y mensuales.</li>
+              <li>Coordinar tiempo de ejecución para cumplir con los tiempos requeridos por clientes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Ejecutivo Clientes de Alto Valor - TELEPERFORMANCE (Marzo 2017 – Junio 2017, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Orientación y soporte de problemáticas en internet, TV cable y red telefónica nivel técnico.</li>
+              <li>Realización de informes de registro de llamadas.</li>
+              <li>Manejo de cuentas comerciales.</li>
+              <li>Ofrecer productos y servicios de acuerdo a las necesidades del cliente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Ejecutivo Clientes de Alto Valor - TELEPERFORMANCE (Marzo 2017 – Junio 2017, Santiago- Chile)
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Orientación y soporte de problemáticas en internet, TV cable y red telefónica nivel técnico.</li>
+              <li>Realización de informes de registro de llamadas.</li>
+              <li>Manejo de cuentas comerciales.</li>
+              <li>Ofrecer productos y servicios de acuerdo a las necesidades del cliente.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="section-title mt-5">Antecedentes Académicos</h4>
+    <p>2008 – 2013: Título de Ingeniero Civil - Instituto Universitario Politécnico “Santiago Mariño”, Nueva Esparta – Venezuela</p>
+
+    <h4 class="section-title">Información Adicional</h4>
+    <ul>
+      <li>Inglés, oral y escrito, nivel avanzado</li>
+      <li>MS Office, nivel avanzado</li>
+      <li>Autocad, nivel básico</li>
+    </ul>
+
+    <h4 class="section-title">Cursos</h4>
+    <ul class="list-group">
+      <li class="list-group-item">2016: Curso "PENTESTER" - Centro de Investigación Informática Lazarus</li>
+      <li class="list-group-item">2015: Curso "Estructura de Concreto Armado, según norma COVENIN 1753-2006"</li>
+      <li class="list-group-item">2011: Curso "Partidas para estudios, proyectos y construcción de edificaciones"</li>
+      <li class="list-group-item">2011: Curso "Diseño Estructural en concreto armado normas ACI 138-06 y COVENIN 1753-06"</li>
+      <li class="list-group-item">2008: Curso "Inspección y supervisión de obras"</li>
+      <li class="list-group-item">2008: Curso "Control de obras con aplicación de software"</li>
+    </ul>
+
+    <div class="text-center mt-5">
+      <a href="Portafolio.html" target="_blank" class="btn btn-primary">Ver mi Portafolio</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

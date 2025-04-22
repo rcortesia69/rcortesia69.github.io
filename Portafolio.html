@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Cortesia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between m-2 p-2" id="navbarTogglerDemo01">
+            <h1><i class="bi bi-code-slash"></i>Ricardo Cortesia</h1>
+            <ul class="navbar-nav m-2 justify-content-center align-items-center">
+              <li class="nav-item inicio">
+                <a class="nav-link "  href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acercademi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#estudios">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trabajos" >Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactame" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Seccion presentacion e imagen -->
+     <Section class="container-fluid d-flex justify-content-between hero-section">
+        <div class="aside-presentacion">
+            <h2>Tranformo ideas <br>
+            en experiencias <br>
+            digitales</h2>
+            <p>Soy desarrollador frontend en formación continua. Domino HTML, CSS, Flexbox, Bootstrap y JavaScript. Estoy listo para construir experiencias modernas, responsivas y funcionales.</p>
+            <button type="button" class="btn btn-primary" >Contactame</button>
+        </div>
+        <div>
+            <img src="assets/img/me.JPG" alt="Imagen de perfil">
+        </div>
+     </Section>
+     <!-- Seccion Acerca de mi -->
+     <section id="acercademi" class="container-fluid acerca-de-mi">
+        <div class="title-section justify-content-center d-flex align-items-center">
+            <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Acerca de mi</h1><hr class="hrlinea">
+        </div>
+        <div class="row">
+            <div class="col-md-6 img-container">
+                <img src="assets/img/me2.webp" alt="">
+            </div>
+            <div class="col-md-6 justify-content-center d-flex align-items-center text-container">
+                <p>Soy Ingeniero Civil de formación, pero a lo largo de mi vida profesional he explorado y desarrollado habilidades en múltiples áreas que han enriquecido mi perfil.
+
+                    He trabajado en atención al público y ventas, lo que me ha dado una gran capacidad para comunicarme, entender necesidades y ofrecer soluciones. También he explorado el mundo de la fotografía, el diseño digital y el soporte informático, lo que me permitió combinar la parte creativa con el pensamiento técnico.
+                    
+                    Hoy, con esa base y experiencia multidisciplinaria, estoy construyendo un nuevo camino como desarrollador frontend. Me apasiona crear interfaces que no solo se vean bien, sino que funcionen bien. Mi enfoque está en crecer, aprender constantemente y aportar valor real en cada proyecto.
+                    
+                    Estoy listo para nuevos desafíos, con una mentalidad flexible, resolutiva y orientada al detalle.</p>
+            </div>
+        </div>
+     </section>
+     <!-- Seccion Estudios -->
+     <section id="estudios" class="container-fluid">
+        <div class="title-section justify-content-center d-flex align-items-center">
+          <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Estudios</h1><hr class="hrlinea">
+        </div>
+        <div class=" d-flex justify-content-center align-items-center p-5">
+          <ul>
+            <li>2008-2013 <strong>Titulo de Ingerniero Civil</strong> I.U.P "Santiago Mariño", Nueva Esparta - Venezuela</li>
+            <li>2001-2016 <strong>Bachiller en ciencias</strong> U.E "Independencia", Nueva Esparta - Venezuela</li>
+          </ul>
+        </div>
+     </section>
+     <!-- Seccion trabajos recientes  -->
+     <section id="trabajos" class="container-fluid trabajos-recientes">
+        <div class="title-section justify-content-center d-flex align-items-center">
+            <hr class="hrlinea"><h1 class="d-inline justify-content-center align-items-center m-4">Trabajos Recientes</h1><hr class="hrlinea">
+        </div>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="p03.html"><img src="assets/img/Proyecto02.png" class="d-block w-100" alt="Proyecto02"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="p04.html"><img src="assets/img/proyecto03.png" class="d-block w-100" alt="Proyecto03"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="p05.html"><img src="assets/img/proyecto04.png" class="d-block w-100" alt="Proyecto04"></a>
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </section>
+     <!-- seccion footer -->
+     <section id="contactame" class=" container footer d-flex justify-content-center align-items-center flex-column">
+        <h2>Estoy disponible para trabajo Freelance, puedes contactarme a traves de:</h2>
+        <div class="d-flex w-100 justify-content-between icons">
+            <a href="https://www.instagram.com/r.cortesia.o/"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:r.cortesia69@gmail.com"><i class="bi bi-envelope-paper"></i></a>
+            <a href="https://github.com/rcortesia69"><i class="bi bi-github"></i></a>
+        </div>
+        <p>2025 - Ricardo Cortesia - Web Developer</p>
+     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

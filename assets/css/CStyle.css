@@ -1,0 +1,23 @@
+ body {
+      background-color: #f8f9fa;
+    }
+    .section-title {
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .card-header {
+      background-color: #e9ecef;
+      font-weight: bold;
+    }
+    .list-group-item {
+      background-color: transparent;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: block;
+    }
