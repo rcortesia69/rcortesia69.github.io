@@ -26,6 +26,9 @@ body {
     color: #33FFA9 !important;
     font-size: 1.7rem;
 }
+.navbar-toggler{
+    background-color: #10fc99;
+}
 
 
 /* ECICIONES SECCION PRESENTACION */
