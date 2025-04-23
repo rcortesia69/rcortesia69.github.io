@@ -37,11 +37,9 @@ body {
     margin-bottom: 5rem;
 }
 .hero-section img{
-    width: 630px;
-    height: 630px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    margin-top: 2rem;
     
 }
 .aside-presentacion{
