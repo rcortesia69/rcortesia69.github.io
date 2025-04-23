@@ -82,7 +82,9 @@ body {
     background-color: #3a7f78; /* o el color verde que estés usando */
     max-width: 100px;
   }
-
+.titulo-seccion h2{
+    font-size: 2.2rem;
+}
 ul li{
     font-size: 2rem;
 }
