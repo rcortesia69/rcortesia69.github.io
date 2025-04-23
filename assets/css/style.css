@@ -33,14 +33,17 @@ body {
 
 /* ECICIONES SECCION PRESENTACION */
 .hero-section{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .hero-section img{
     width: 300px;
     height: 300px;
     object-fit: cover;
     
+}
+.hero-section h2{
+    font-size: 2.5rem;
 }
 .aside-presentacion{
     padding-left: 1rem;
@@ -60,36 +63,25 @@ body {
 
 /* SECCION ACERCA DE MI */
 
-.img-container img{
-    width: 100%;
-    object-fit: cover;
-}
 .text-container{
-    font-size: 2rem;
+    font-size: 1rem;
 }
-.img-container{
-    padding-left: 0;
-}
+
 .acerca-de-mi h1{
     font-size: 5rem;
-
 } 
 
-.hrlinea{
-        vertical-align: middle;
-            width: 100%;
-            display: inline-block;
-            border: 3px solid #33FFA9;
-}
-.title-section{
-    height: 10rem;
-    padding: 10px;
-}
+
 
 /* SECCION ESTUDIOS */
 .title-section h1{
     font-size: 3rem;
 }
+.linea {
+    height: 3px;
+    background-color: #3a7f78; /* o el color verde que estés usando */
+    max-width: 100px;
+  }
 
 ul li{
     font-size: 2rem;
